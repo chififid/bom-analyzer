@@ -106,6 +106,8 @@ extern "C" int __cdecl AnalyzeProfile(const wchar_t* profileName,
 
 ### Delphi demo
 
+The compiled [ProfileAnalyzer.dll](delphi/ProfileAnalyzer.dll) is included beside the Delphi sources (Windows x64, Release). It needs the Microsoft Visual C++ x64 runtime, but no Qt libraries. Copy it beside the demo EXE if the IDE puts the EXE in another folder.
+
 Open [ProfileAnalyzerDemo.dproj](delphi/ProfileAnalyzerDemo.dproj), select **Windows 64-bit / Debug** and use **Project → Build ProfileAnalyzerDemo**. I used Delphi 13 Community Edition.
 
 The EXE and DLL must be in the same folder and have matching bitness. The tested build is x64; a 32-bit process needs a separate x86 DLL. The Debug DLL needs the MSVC Debug runtime, while the Release DLL uses the standard runtime.
