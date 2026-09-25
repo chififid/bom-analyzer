@@ -1,0 +1,4 @@
+BuildingID,ProfileName,Length_mm,Cost,Quantity
+B0001,IPE200,6000,300,2
+B0001,IPE240,8000,480,1
+B0002,HEA160,4000,160,3

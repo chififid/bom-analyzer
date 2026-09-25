@@ -1,0 +1,20 @@
+# Local IDE state and machine-specific settings.
+.vs/
+*.vcxproj.user
+CMakeUserPresets.json
+*.dproj.local
+*.identcache
+*.dsk
+__history/
+__recovery/
+
+# Generated build outputs.
+/build/
+/out/
+/delphi/*.dcu
+/delphi/*.rsm
+/delphi/ProfileAnalyzerDemo.exe
+/delphi/ProfileAnalyzerDemo.res
+
+# Local working files.
+/tmp/
